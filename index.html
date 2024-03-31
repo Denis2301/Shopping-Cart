@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="src/style.css" />
+    <meta name="keywords" content="ecommerce, store, sell, shopping" />
+    <meta name="robots" content="index,follow" />
+    <meta name="description" content="Ecommerce Store" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ecommerce</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <header>
+          <a href="" class="header-title">Ecommerce</a>
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAORJREFUSEvtld0RATEUhb+twKiATtCBDujAqAAdKEEHlEAlRgc6YI5JdshKbnZNxsvmZTP5Od/Nyd3cisKtKqxPLmAOrICpC+gM7AB9ky0HcAAWERVBtimCBVDkRyewBk6uvwQ2rj9LncQCyIIJIPF9EKkiF+TyZl3jMBbg4XYMgXuwewxc3VhUJxcQW+cDyAZ4S6zkSM1LQ/fyaiHZR/QL4EM3BvDjlgXhfGP93wFtrWp9gh4QTVPrB4xZ19+BmVSmRXoxB6ZMesEN0Ev79S1SSVQFG3WESFzFqC6lXbMlm18c8ATvMDIZGBnHqwAAAABJRU5ErkJggg=="
+            id="cart-icon"
+          />
+          <div class="backet">
+            <h2 class="backet__title">Your Cart</h2>
+
+            <div class="define"></div>
+
+            <hr />
+            <div class="total">
+              <div class="total__title">Total</div>
+              <div class="total__price">0$</div>
+            </div>
+            <div class="container__bottom">
+              <button class="button-buy">Buy Now</button>
+            </div>
+            <img
+              id="close-backet"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAfhJREFUWEftmOExRTEQhc+rABWgAlSADqgAFaACVIAKUMHTASpAB3RABcxnbkwmN9ls7jxcRv7cH9nsnpzdnGzuRCMbk5Hh0Z8BtCppRxLf+e4L2Q+SXrrvVfdtSkIrQ8eS9jsQnkCAO5N04jHGxgtoS9KppCWv48TuSdKhpOvaeg8gWDmqOXLO48tkqwbosqsVZzyXGT73SpYWoFkyk8aHJfz3RgkQNTN17Xe40XaupkqAKMLF4bFcK4mxnFrmAHlS9ewA7LHppS4HCO2YM/b4KGlDEmm9KNhRtBzxW0krhi9iLcTzKSCU995wwK6xwRFjNwMKMJwkBiqOelvpX4sVPQWEqqLE1ogDpqCsuZLPc0kHYTIFBMXrjpLMBWZZYKbEXs71XVcCH3MpIOi1ch47TEHFc7lUlvZJTNKWBfTmYKcGqgVMD0fK0OgA/UTKkBFObjZloyvq0R37mjAiiJuRkNWEEX83lQ7TFEbyWLs6AiiCWVcH9VgD85qCHXq5AoprwRoeG9flSpDvaD+4F3s9+q9p0GDJ0xc1CvuneXMLG1Z+RZPPA5LTmR21V8esmSoyU1LqEnC6Q0RzaJ9NAdPzzOShGIOkrnBstbixPTrDRrJPntzuPSnLrUMUqYPwsyH0UFyU4WcD9Yc4No2hgJqCtBj/A6qx9Q4ukHAlgJORJAAAAABJRU5ErkJggg=="
+            />
+          </div>
+        </header>
+      </div>
+      <section class="section__products">
+        <h2 class="section__title">Shop Products</h2>
+        <div class="products__block">
+          <div class="products__item">
+            <div class="products__image">
+              <img src="./img/product1.jpg" alt="" class="item-image" />
+            </div>
+            <h3 class="item-title">AEROREDY SHIRT</h3>
+            <span class="price-num">25$</span>
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAORJREFUSEvtld0RATEUhb+twKiATtCBDujAqAAdKEEHlEAlRgc6YI5JdshKbnZNxsvmZTP5Od/Nyd3cisKtKqxPLmAOrICpC+gM7AB9ky0HcAAWERVBtimCBVDkRyewBk6uvwQ2rj9LncQCyIIJIPF9EKkiF+TyZl3jMBbg4XYMgXuwewxc3VhUJxcQW+cDyAZ4S6zkSM1LQ/fyaiHZR/QL4EM3BvDjlgXhfGP93wFtrWp9gh4QTVPrB4xZ19+BmVSmRXoxB6ZMesEN0Ev79S1SSVQFG3WESFzFqC6lXbMlm18c8ATvMDIZGBnHqwAAAABJRU5ErkJggg=="
+              class="add-cart"
+            />
+          </div>
+          <div class="products__item">
+            <div class="products__image">
+              <img src="./img/product2.jpg" alt="" class="item-image" />
+            </div>
+            <h3 class="item-title">WIRELESS EARBUDS</h3>
+            <span class="price-num">100$</span>
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAORJREFUSEvtld0RATEUhb+twKiATtCBDujAqAAdKEEHlEAlRgc6YI5JdshKbnZNxsvmZTP5Od/Nyd3cisKtKqxPLmAOrICpC+gM7AB9ky0HcAAWERVBtimCBVDkRyewBk6uvwQ2rj9LncQCyIIJIPF9EKkiF+TyZl3jMBbg4XYMgXuwewxc3VhUJxcQW+cDyAZ4S6zkSM1LQ/fyaiHZR/QL4EM3BvDjlgXhfGP93wFtrWp9gh4QTVPrB4xZ19+BmVSmRXoxB6ZMesEN0Ev79S1SSVQFG3WESFzFqC6lXbMlm18c8ATvMDIZGBnHqwAAAABJRU5ErkJggg=="
+              class="add-cart"
+            />
+          </div>
+          <div class="products__item">
+            <div class="products__image">
+              <img src="./img/product3.jpg" alt="" class="item-image" />
+            </div>
+            <h3 class="item-title">HOODED PARKA</h3>
+            <span class="price-num">45$</span>
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAORJREFUSEvtld0RATEUhb+twKiATtCBDujAqAAdKEEHlEAlRgc6YI5JdshKbnZNxsvmZTP5Od/Nyd3cisKtKqxPLmAOrICpC+gM7AB9ky0HcAAWERVBtimCBVDkRyewBk6uvwQ2rj9LncQCyIIJIPF9EKkiF+TyZl3jMBbg4XYMgXuwewxc3VhUJxcQW+cDyAZ4S6zkSM1LQ/fyaiHZR/QL4EM3BvDjlgXhfGP93wFtrWp9gh4QTVPrB4xZ19+BmVSmRXoxB6ZMesEN0Ev79S1SSVQFG3WESFzFqC6lXbMlm18c8ATvMDIZGBnHqwAAAABJRU5ErkJggg=="
+              class="add-cart"
+            />
+          </div>
+          <div class="products__item">
+            <div class="products__image">
+              <img src="./img/product4.jpg" alt="" class="item-image" />
+            </div>
+            <h3 class="item-title">STRAW METAL BOOTLR</h3>
+            <span class="price-num">24.04$</span>
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAORJREFUSEvtld0RATEUhb+twKiATtCBDujAqAAdKEEHlEAlRgc6YI5JdshKbnZNxsvmZTP5Od/Nyd3cisKtKqxPLmAOrICpC+gM7AB9ky0HcAAWERVBtimCBVDkRyewBk6uvwQ2rj9LncQCyIIJIPF9EKkiF+TyZl3jMBbg4XYMgXuwewxc3VhUJxcQW+cDyAZ4S6zkSM1LQ/fyaiHZR/QL4EM3BvDjlgXhfGP93wFtrWp9gh4QTVPrB4xZ19+BmVSmRXoxB6ZMesEN0Ev79S1SSVQFG3WESFzFqC6lXbMlm18c8ATvMDIZGBnHqwAAAABJRU5ErkJggg=="
+              class="add-cart"
+            />
+          </div>
+          <div class="products__item">
+            <div class="products__image">
+              <img src="./img/product5.jpg" alt="" class="item-image" />
+            </div>
+            <h3 class="item-title">SILVER METAL Sunglasses</h3>
+            <span class="price-num">50$</span>
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAORJREFUSEvtld0RATEUhb+twKiATtCBDujAqAAdKEEHlEAlRgc6YI5JdshKbnZNxsvmZTP5Od/Nyd3cisKtKqxPLmAOrICpC+gM7AB9ky0HcAAWERVBtimCBVDkRyewBk6uvwQ2rj9LncQCyIIJIPF9EKkiF+TyZl3jMBbg4XYMgXuwewxc3VhUJxcQW+cDyAZ4S6zkSM1LQ/fyaiHZR/QL4EM3BvDjlgXhfGP93wFtrWp9gh4QTVPrB4xZ19+BmVSmRXoxB6ZMesEN0Ev79S1SSVQFG3WESFzFqC6lXbMlm18c8ATvMDIZGBnHqwAAAABJRU5ErkJggg=="
+              class="add-cart"
+            />
+          </div>
+          <div class="products__item">
+            <div class="products__image">
+              <img src="./img/product6.jpg" alt="" class="item-image" />
+            </div>
+            <h3 class="item-title">BACK HAT</h3>
+            <span class="price-num">50$</span>
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAORJREFUSEvtld0RATEUhb+twKiATtCBDujAqAAdKEEHlEAlRgc6YI5JdshKbnZNxsvmZTP5Od/Nyd3cisKtKqxPLmAOrICpC+gM7AB9ky0HcAAWERVBtimCBVDkRyewBk6uvwQ2rj9LncQCyIIJIPF9EKkiF+TyZl3jMBbg4XYMgXuwewxc3VhUJxcQW+cDyAZ4S6zkSM1LQ/fyaiHZR/QL4EM3BvDjlgXhfGP93wFtrWp9gh4QTVPrB4xZ19+BmVSmRXoxB6ZMesEN0Ev79S1SSVQFG3WESFzFqC6lXbMlm18c8ATvMDIZGBnHqwAAAABJRU5ErkJggg=="
+              class="add-cart"
+            />
+          </div>
+          <div class="products__item">
+            <div class="products__image">
+              <img src="./img/product7.jpg" alt="" class="item-image" />
+            </div>
+            <h3 class="item-title">BACKPACK</h3>
+            <span class="price-num">70$</span>
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAORJREFUSEvtld0RATEUhb+twKiATtCBDujAqAAdKEEHlEAlRgc6YI5JdshKbnZNxsvmZTP5Od/Nyd3cisKtKqxPLmAOrICpC+gM7AB9ky0HcAAWERVBtimCBVDkRyewBk6uvwQ2rj9LncQCyIIJIPF9EKkiF+TyZl3jMBbg4XYMgXuwewxc3VhUJxcQW+cDyAZ4S6zkSM1LQ/fyaiHZR/QL4EM3BvDjlgXhfGP93wFtrWp9gh4QTVPrB4xZ19+BmVSmRXoxB6ZMesEN0Ev79S1SSVQFG3WESFzFqC6lXbMlm18c8ATvMDIZGBnHqwAAAABJRU5ErkJggg=="
+              class="add-cart"
+            />
+          </div>
+          <div class="products__item">
+            <div class="products__image">
+              <img src="./img/product8.jpg" alt="" class="item-image" />
+            </div>
+            <h3 class="item-title">ULTRABOOST 22</h3>
+            <span class="price-num">45$</span>
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAORJREFUSEvtld0RATEUhb+twKiATtCBDujAqAAdKEEHlEAlRgc6YI5JdshKbnZNxsvmZTP5Od/Nyd3cisKtKqxPLmAOrICpC+gM7AB9ky0HcAAWERVBtimCBVDkRyewBk6uvwQ2rj9LncQCyIIJIPF9EKkiF+TyZl3jMBbg4XYMgXuwewxc3VhUJxcQW+cDyAZ4S6zkSM1LQ/fyaiHZR/QL4EM3BvDjlgXhfGP93wFtrWp9gh4QTVPrB4xZ19+BmVSmRXoxB6ZMesEN0Ev79S1SSVQFG3WESFzFqC6lXbMlm18c8ATvMDIZGBnHqwAAAABJRU5ErkJggg=="
+              class="add-cart"
+            />
+          </div>
+        </div>
+      </section>
+      <div class="footer">
+        <div class="footer__container">
+          <div class="footer__copy">Copy, 2024.</div>
+          <div class="footer__text">Lorem ipsum dolor sit.</div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="js/index.js"></script>
+  </body>
+</html>
